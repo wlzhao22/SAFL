@@ -38,7 +38,7 @@ python -m torch.distributed.launch --nproc_per_node=<number of gpus> mono3d/trai
 # Model Zoo
 |Config File|  Model|AP(3D)|
 |-|-|-|
-|configs_shapeaware/shapeaware_quantizationFloor_albu_SAFLw2NoRepair_CS.py|Comming soon|18.39|
+|configs_shapeaware/shapeaware_quantizationFloor_albu_SAFLw2NoRepair_CS.py|[Google Drive](https://drive.google.com/file/d/1eB-Xdm9LAsXQCovL-QUQHCGwNkxjw4EV/view?usp=share_link)|18.39|
 
 # Acknowledgements
 The project benefits a lot from the following works. Thanks for their contribution. 
