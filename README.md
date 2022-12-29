@@ -31,8 +31,15 @@ data/kitti/
 ```
 
 # Training & Evaluation 
+
+training:
 ```
 python -m torch.distributed.launch --nproc_per_node=<number of gpus> mono3d/train.py <config file> --no-validate --launcher=pytorch
+```
+
+evaluation:
+```
+python mono3d/test.py <config file> <checkpoint file> --eval bbox 
 ```
 
 # Model Zoo
